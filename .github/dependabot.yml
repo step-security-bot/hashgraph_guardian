@@ -14,3 +14,233 @@ updates:
     open-pull-requests-limit: 15
     target-branch: "develop"
     versioning-strategy: increase-if-necessary
+
+  - package-ecosystem: docker
+    directory: /ai-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /ai-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /analytics-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /analytics-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /api-gateway
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /api-gateway
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /api-tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /application-events
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /application-events
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /auth-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /auth-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /demia/demia_tester_scripts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /e2e-tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /frontend
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /guardian-cli
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /guardian-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /guardian-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /indexer-api-gateway
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-api-gateway
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-frontend
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-interfaces
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /indexer-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /indexer-web-proxy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /indexer-worker-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /indexer-worker-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /interfaces
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /logger-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /logger-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /mrv-sender
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /mrv-sender
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /notification-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /notification-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /policy-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /policy-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /queue-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /queue-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /topic-viewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /topic-viewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /tree-viewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /tree-viewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /web-proxy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /worker-service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /worker-service
+    schedule:
+      interval: daily
